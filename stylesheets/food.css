@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #FFF url("../images/bg.png");
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #FFF;
+}
+/*a tags*/
+a {
+	color: #51918A;
+}
+/*wrap*/
+#wrap {
+	/*background-color: #9CDED7;*/
+	width: 720px;
+	margin: 0 auto;
+	
+}
+/*header*/
+#header {
+	background-color: #9CDED7;
+	width: 720px;
+	height: 130px;
+	color: #2F3C3B;
+	border-radius: 25px;
+}
+
+h1 {
+	text-align:center;
+	padding: 45px 0 45px 0;
+	font-size: 40px;
+}
+/*nav*/
+ 
+#nav {
+	background: #FFF url("../images/bg.png");
+	width: 720px;
+	height: 40px;
+	color: #666;
+	padding: 5px 23px 0 23px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#nav a#selected { 
+background-color: #EAAE82;
+
+}
+#nav ul li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+#nav ul li a {
+	font-size: 18px;
+	display: block;
+	width: 150px;
+	height: 29px;
+	margin: 0;
+	text-align: center;
+	background-color: #51918A;
+	color: #2F3C3B;
+	text-decoration: none;
+	padding-top: 11px;
+	border-radius: 25px 25px 0 0;
+	
+}
+
+#nav ul li a:hover{
+	color: #e9e9d1;
+	
+}
+
+#selected {
+	background-color: blue;
+	color: white; 
+}
+/*main*/
+#main {
+	background-color: #EAAE82;
+	width: 480px;
+	/*height: 1400px;*/
+	float: left;
+	padding: 0 10px 0 10px;
+	border-radius: 25px;
+}
+#main h2 {
+	color: #2F3C3B;
+	text-align:center;
+}
+#video{
+	display: block;
+	margin: 0 auto;
+}
+#frenchfries {
+	margin: 0 auto;
+	display: block;
+}
+/*Sidebar*/
+ 
+#sidebar {
+	background-color: #9CDED7;
+	width: 190px;
+	height: 1400px;
+	float: right;
+	padding: 0 10px 0 10px;
+	color: #2F3C3B;
+	/*border: 2px solid;*/
+    	border-radius: 25px;
+	margin-left: 10px;
+}
+#sidebar h2 {
+	color: #2F3C3B;
+}
+#sidebar a {
+	color: #e9e9d1;
+}
+/*footer*/
+ 
+#footer {
+	background: rgba(255,255,255,0);
+	width: 720px;
+	height: 80px;
+	clear: both;
+	/*padding: 0 10px 0 10px;*/
+	color: #60544B;
+	padding-top: 40px;
+}
+
+#footer a[href="#header"]{
+	color: #60544B;
+	font-size: 18px;
+	display: block;
+	width: 180px;
+	/*height: 20px;*/
+	margin: 0 auto;
+	text-align: center;
+	background-color: #51918A;
+	text-decoration: none;
+	border-radius: 25px;
+	
+
+}
+
+#footer a[href="#header"]:hover{
+	color: #e9e9d1;
+}
+
+#footer p{
+	margin: 0 auto; 
+	text-align: center;
+	padding: 2px;
+}
+
+#divSocial{
+	padding: 13px 310px;
+}
+
+#divSocial a{
+	text-decoration: none; 	
+	margin: 0 auto;
+	
+}
+
+#divSocial a img{
+	position: relative;
+    border: none;   
+ 
+}
